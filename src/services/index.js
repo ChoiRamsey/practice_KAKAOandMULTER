@@ -1,7 +1,7 @@
 const userService = require('./userService');
-const homeService = require('./homeService');
+const imageService = require('./imageService');
 
 module.exports = {
   userService,
-  homeService
+  imageService
 }
