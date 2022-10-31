@@ -52,15 +52,16 @@
   </div>
   <div>
     <h4>파일 업로드</h4>
-    <form action="/home/upload" enctype="multipart/form-data" method="post">
+    <form action="/image/upload" enctype="multipart/form-data" method="post">
       <input type="file" name="attachedFile">
-      <button type="submit">Upload</button>
+      <input type="submit" value="파일 올리기">
     </form>
-    <input class="images" type="button"  onclick="location.href='http://127.0.0.1:3000/home/images';" value="이미지 보기" />
+    <input class="images" type="button"  onclick="location.href='http://127.0.0.1:3000/image';" value="최근 이미지 확인" />
   </div>
   <div>
     <!-- POSTMAN으로 확인 가능 -->
     <input class="soccer" type="button" onclick="location.href='http://127.0.0.1:3000/soccer';" value="해외축구 뉴스 보기" />
+    <br>(<b>POSTMAN</b> 사용 필요)
   </div>
 </body>
 </html>
